@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class HQA2 {
+	public static void main(String args []) {
+		Scanner sc=new Scanner(System.in);
+
+        int a=0;
+        for (int i=1;i<=1000;i++) {
+            if(i%3==0 || i%5==0)
+                a=a+1;
+        }
+        System.out.println("The sum of all the multiples is: "+a);
+	}
+}
